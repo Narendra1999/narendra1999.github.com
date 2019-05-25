@@ -1,0 +1,48 @@
+body,html{
+
+	height: 100%;
+	width: 100%;
+}
+hr{
+	max-width: 100px;
+	max-height: 200px;
+	border-radius: 10px;
+	background-color: green;
+}
+header.start-up{
+	background-position: center;
+	background-image: url("land1.jpeg");
+	background-size: cover;
+	height: 100%;
+}
+header.start-up hr{
+	margin-top: 100px;
+	margin-bottom: 20px;
+
+}
+header.start-up h1{
+	font-size: 40px;
+	color: #FFB12F;
+}
+.btn {
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 300px;
+  transform: all 2s;
+ 
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
